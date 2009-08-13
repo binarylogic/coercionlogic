@@ -10,6 +10,7 @@ begin
     gem.email = "bjohnson@binarylogic.com"
     gem.homepage = "http://github.com/binarylogic/coercionlogic"
     gem.authors = ["binarylogic"]
+    gem.rubyforge_project = "coercionlogic"
     gem.add_dependency "activerecord"
     gem.add_development_dependency "rspec"
   end

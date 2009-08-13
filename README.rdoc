@@ -1,6 +1,9 @@
 = Coercionlogic
 
-Extremely simple module to coerce blank strings into nil objects for ActiveRecord.
+Extremely simple module to coerce blank strings into nil objects for ActiveRecord to create consistency in your database data. It keeps you from having to write query conditions like:
 
+  name = '' OR name IS NULL
+
+This library is part of my attempt to start pulling out common code in my applications and sharing them via gems.
 
 Copyright (c) 2008 {Ben Johnson of Binary Logic}[http://www.binarylogic.com], released under the MIT license
