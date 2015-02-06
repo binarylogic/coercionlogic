@@ -1,4 +1,4 @@
-require 'activerecord'
+require 'active_record'
 
 module Coercionlogic
   def write_attribute_with_coercion(attr_name, value)
